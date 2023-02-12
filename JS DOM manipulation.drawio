@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T11:28:14.029Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="4TjvZo42T668G9UEJwJM" version="20.8.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-12T11:30:01.773Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="dTeJVgF4Vzcf0WMx-CPW" version="20.8.11" type="github" pages="2">
   <diagram name="Walking the DOM" id="5V7_pKLbEzuSfmTmsPUu">
     <mxGraphModel dx="2385" dy="2640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -28,12 +28,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jyqPoQVvo13q8SY_gDyr" name="Searching">
-    <mxGraphModel dx="885" dy="1120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="740" dy="1027" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="AF8anBXpZ3DgjyDH78RA-5" value="elem.matches(css)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=default;align=center;strokeColor=default;fillColor=default;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1670" y="870" width="220" height="60" as="geometry" />
+          <mxGeometry x="1670" y="750" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AF8anBXpZ3DgjyDH78RA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" parent="1" source="AF8anBXpZ3DgjyDH78RA-15" target="AF8anBXpZ3DgjyDH78RA-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -69,7 +69,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AF8anBXpZ3DgjyDH78RA-27" value="document.getElementsByName(name)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1400" y="270" width="240" height="60" as="geometry" />
+          <mxGeometry x="1380" y="270" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AF8anBXpZ3DgjyDH78RA-29" value="&amp;nbsp;returns elements with the given name attribute, document-wide. Very rarely used" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1130" y="285" width="205" height="30" as="geometry" />
@@ -87,43 +87,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8BdsdQuCoKpeKIvR_X3w-5" value="querySelector* (returns static collections)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="1670" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8BdsdQuCoKpeKIvR_X3w-6" value="elem.querySelector(css) === elem.querySelectorAll(css)[0]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1870" y="690" width="350" height="60" as="geometry" />
+          <mxGeometry x="1870" y="570" width="350" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8BdsdQuCoKpeKIvR_X3w-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="8BdsdQuCoKpeKIvR_X3w-5" target="8BdsdQuCoKpeKIvR_X3w-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8BdsdQuCoKpeKIvR_X3w-8" value="returns the first element for the given CSS selector" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="2300" y="705" width="190" height="30" as="geometry" />
+          <mxGeometry x="2300" y="585" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8BdsdQuCoKpeKIvR_X3w-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="8BdsdQuCoKpeKIvR_X3w-6" target="8BdsdQuCoKpeKIvR_X3w-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8BdsdQuCoKpeKIvR_X3w-10" value="elem.querySelectorAll(css)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1400" y="690" width="190" height="60" as="geometry" />
+          <mxGeometry x="1400" y="570" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8BdsdQuCoKpeKIvR_X3w-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="8BdsdQuCoKpeKIvR_X3w-5" target="8BdsdQuCoKpeKIvR_X3w-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8BdsdQuCoKpeKIvR_X3w-12" value="returns all elements inside elem matching the given CSS selector, these elements will be a static collection" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="705" width="170" height="30" as="geometry" />
+          <mxGeometry x="1150" y="585" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8BdsdQuCoKpeKIvR_X3w-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="8BdsdQuCoKpeKIvR_X3w-10" target="8BdsdQuCoKpeKIvR_X3w-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8BdsdQuCoKpeKIvR_X3w-23" value="does not look for anything, it merely checks if elem matches the given CSS-selector. It returns true or false" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1940" y="885" width="250" height="30" as="geometry" />
+          <mxGeometry x="1940" y="765" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8BdsdQuCoKpeKIvR_X3w-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="AF8anBXpZ3DgjyDH78RA-5" target="8BdsdQuCoKpeKIvR_X3w-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8BdsdQuCoKpeKIvR_X3w-25" value="elem.closest(css)" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=default;align=center;strokeColor=default;fillColor=default;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="1000" width="220" height="60" as="geometry" />
+          <mxGeometry x="1670" y="880" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8BdsdQuCoKpeKIvR_X3w-27" value="looks for the nearest ancestor that matches the CSS-selector. The elem itself is also included in the search" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1970" y="1015" width="340" height="30" as="geometry" />
+          <mxGeometry x="1970" y="895" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8BdsdQuCoKpeKIvR_X3w-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="8BdsdQuCoKpeKIvR_X3w-25" target="8BdsdQuCoKpeKIvR_X3w-27">
           <mxGeometry relative="1" as="geometry" />
