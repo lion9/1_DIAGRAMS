@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T11:46:11.455Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Ov-eiLHPPaDQBo0n-dhn" version="20.8.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-12T11:57:11.982Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="T_Muwuf-NRtMpiKA9e2h" version="20.8.11" type="github" pages="3">
   <diagram name="Walking the DOM" id="5V7_pKLbEzuSfmTmsPUu">
     <mxGraphModel dx="2385" dy="2640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -126,6 +126,59 @@
           <mxGeometry x="1940" y="895" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8BdsdQuCoKpeKIvR_X3w-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="8BdsdQuCoKpeKIvR_X3w-25" target="8BdsdQuCoKpeKIvR_X3w-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2p6N85V6gRsdOOBAvf5C" name="Node properties: type, tag and contents">
+    <mxGraphModel dx="1272" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zImYZJp69DjzyPnSN2yX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="zImYZJp69DjzyPnSN2yX-2" target="zImYZJp69DjzyPnSN2yX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-2" value="EventTarget" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="230" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-3" value="the root “abstract” class for everything" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="430" y="475" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="zImYZJp69DjzyPnSN2yX-2" target="zImYZJp69DjzyPnSN2yX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="zImYZJp69DjzyPnSN2yX-5" target="zImYZJp69DjzyPnSN2yX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-5" value="Node" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="230" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-7" value="also an “abstract” class, serving as a base for DOM nodes, provides getters&amp;nbsp;parentNode, nextSibling, childNodes and so on, objects of Node class are never created but other classes inherit from it" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="425" y="557.5" width="340" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="zImYZJp69DjzyPnSN2yX-5" target="zImYZJp69DjzyPnSN2yX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="zImYZJp69DjzyPnSN2yX-9" target="zImYZJp69DjzyPnSN2yX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-9" value="Document" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="230" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-11" value="The document global object belongs exactly to this class. It serves as an entry point to the DOM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="430" y="725" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="zImYZJp69DjzyPnSN2yX-9" target="zImYZJp69DjzyPnSN2yX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-13" value="HTMLDocument" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="230" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-15" value="Inherits from Document for historical reasons. The document as a whole" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="430" y="835" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="zImYZJp69DjzyPnSN2yX-13" target="zImYZJp69DjzyPnSN2yX-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
