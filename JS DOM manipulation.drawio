@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T08:13:27.470Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="JbmmHH-TmT2q1V7LArdP" version="20.8.11" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-12T08:21:14.268Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Yp2Vam8J6LNzHf3Xa6mH" version="20.8.11" type="github" pages="2">
   <diagram name="Walking the DOM" id="5V7_pKLbEzuSfmTmsPUu">
     <mxGraphModel dx="2120" dy="2469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -65,7 +65,7 @@
         <mxCell id="AF8anBXpZ3DgjyDH78RA-6" value="elem.closest(css)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
           <mxGeometry x="265" y="800" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AF8anBXpZ3DgjyDH78RA-7" value="returns all elements inside elem matching the given CSS selector" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-7" value="returns all elements inside elem matching the given CSS selector, these elements will be a static collection" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="280" y="300" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AF8anBXpZ3DgjyDH78RA-9" value="returns the first element for the given CSS selector" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="1">
@@ -86,7 +86,7 @@
         <mxCell id="AF8anBXpZ3DgjyDH78RA-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="AF8anBXpZ3DgjyDH78RA-15" target="AF8anBXpZ3DgjyDH78RA-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AF8anBXpZ3DgjyDH78RA-15" value="getElementsBy*" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-15" value="getElementsBy* (returns live collections)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1690" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AF8anBXpZ3DgjyDH78RA-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="AF8anBXpZ3DgjyDH78RA-16" target="AF8anBXpZ3DgjyDH78RA-22">
