@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T12:04:09.261Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="5_UJDf5GtYp01Oy9YbIl" version="20.8.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-12T12:04:37.197Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="EnuZCz63ndIqUK9tPFX4" version="20.8.11" type="github" pages="3">
   <diagram name="Walking the DOM" id="5V7_pKLbEzuSfmTmsPUu">
     <mxGraphModel dx="2385" dy="2640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -139,7 +139,7 @@
         <mxCell id="zImYZJp69DjzyPnSN2yX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="zImYZJp69DjzyPnSN2yX-2" target="zImYZJp69DjzyPnSN2yX-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zImYZJp69DjzyPnSN2yX-2" value="EventTarget" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="zImYZJp69DjzyPnSN2yX-2" value="EventTarget" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=14;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="230" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zImYZJp69DjzyPnSN2yX-3" value="the root “abstract” class for everything" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
@@ -164,7 +164,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zImYZJp69DjzyPnSN2yX-5" value="Node" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="zImYZJp69DjzyPnSN2yX-5" value="Node" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=14;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="230" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zImYZJp69DjzyPnSN2yX-7" value="also an “abstract” class, serving as a base for DOM nodes, provides getters&amp;nbsp;parentNode, nextSibling, childNodes and so on, objects of Node class are never created but other classes inherit from it" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
@@ -176,7 +176,7 @@
         <mxCell id="zImYZJp69DjzyPnSN2yX-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="zImYZJp69DjzyPnSN2yX-9" target="zImYZJp69DjzyPnSN2yX-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zImYZJp69DjzyPnSN2yX-9" value="Document" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="zImYZJp69DjzyPnSN2yX-9" value="Document" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=14;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="-150" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zImYZJp69DjzyPnSN2yX-11" value="The document global object belongs exactly to this class. It serves as an entry point to the DOM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
@@ -185,7 +185,7 @@
         <mxCell id="zImYZJp69DjzyPnSN2yX-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="zImYZJp69DjzyPnSN2yX-9" target="zImYZJp69DjzyPnSN2yX-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zImYZJp69DjzyPnSN2yX-13" value="HTMLDocument" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="zImYZJp69DjzyPnSN2yX-13" value="HTMLDocument" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=14;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="-150" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zImYZJp69DjzyPnSN2yX-15" value="Inherits from Document for historical reasons. The document as a whole" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
@@ -194,7 +194,7 @@
         <mxCell id="zImYZJp69DjzyPnSN2yX-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="zImYZJp69DjzyPnSN2yX-13" target="zImYZJp69DjzyPnSN2yX-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zImYZJp69DjzyPnSN2yX-20" value="CharacterData" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="zImYZJp69DjzyPnSN2yX-20" value="CharacterData" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=14;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="770" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zImYZJp69DjzyPnSN2yX-22" value="abstract class for text-based nodes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
@@ -213,10 +213,10 @@
             <mxPoint x="830" y="940" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zImYZJp69DjzyPnSN2yX-28" value="Text" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="zImYZJp69DjzyPnSN2yX-28" value="Text" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=14;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="650" y="865" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zImYZJp69DjzyPnSN2yX-33" value="Comment" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="zImYZJp69DjzyPnSN2yX-33" value="Comment" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=14;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="900" y="865" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zImYZJp69DjzyPnSN2yX-36" value="the class corresponding to a text inside elements, e.g. Hello in &amp;lt;p&amp;gt;Hello&amp;lt;/p&amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
