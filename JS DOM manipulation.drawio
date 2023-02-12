@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T12:04:37.197Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="EnuZCz63ndIqUK9tPFX4" version="20.8.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-12T12:06:26.803Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ah60IPjRWbag65Wcg1Mb" version="20.8.11" type="github" pages="3">
   <diagram name="Walking the DOM" id="5V7_pKLbEzuSfmTmsPUu">
     <mxGraphModel dx="2385" dy="2640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -164,6 +164,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="zImYZJp69DjzyPnSN2yX-5" target="zImYZJp69DjzyPnSN2yX-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zImYZJp69DjzyPnSN2yX-5" value="Node" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=14;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="230" y="570" width="120" height="60" as="geometry" />
         </mxCell>
@@ -229,6 +232,15 @@
           <mxGeometry x="855" y="950" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="zImYZJp69DjzyPnSN2yX-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="zImYZJp69DjzyPnSN2yX-33" target="zImYZJp69DjzyPnSN2yX-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-40" value="Element" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=14;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="230" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-43" value="base class for DOM elements,&amp;nbsp;provides element-level navigation like nextElementSibling, children and searching methods like getElementsByTagName, querySelector" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="380" y="702.5" width="260" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="zImYZJp69DjzyPnSN2yX-40" target="zImYZJp69DjzyPnSN2yX-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
