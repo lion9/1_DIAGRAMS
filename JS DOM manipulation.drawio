@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-12T06:38:44.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="qQiytKI8QVNXIfoCKcQI" version="20.8.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-12T08:13:27.470Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="JbmmHH-TmT2q1V7LArdP" version="20.8.11" type="github" pages="2">
   <diagram name="Walking the DOM" id="5V7_pKLbEzuSfmTmsPUu">
-    <mxGraphModel dx="3816" dy="3564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2120" dy="2469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,6 +23,98 @@
         </mxCell>
         <mxCell id="uyGF0R10JEFHj8agn2pT-7" value="Walking the DOM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=40;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1210" y="-70" width="370" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jyqPoQVvo13q8SY_gDyr" name="Searching">
+    <mxGraphModel dx="1735" dy="1120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=40;" edge="1" parent="1" source="DgKl4KeTVkvZo__RcbbC-2" target="AF8anBXpZ3DgjyDH78RA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DgKl4KeTVkvZo__RcbbC-2" value="document.getElementById or just id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="170" y="70" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-1" value="&lt;p style=&quot;line-height: 60%;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Can be called on document only, looks for a given id inside the whole document&lt;/font&gt;&lt;/p&gt;" style="whiteSpace=wrap;html=1;fontSize=40;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="AF8anBXpZ3DgjyDH78RA-3" target="AF8anBXpZ3DgjyDH78RA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-3" value="elem.querySelectorAll(css)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="170" y="230" width="480" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="AF8anBXpZ3DgjyDH78RA-4" target="AF8anBXpZ3DgjyDH78RA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-4" value="elem.querySelector(css) ===&amp;nbsp;elem.querySelectorAll(css)[0]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="20" y="420" width="780" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="AF8anBXpZ3DgjyDH78RA-5" target="AF8anBXpZ3DgjyDH78RA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-5" value="elem.matches(css)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="265" y="630" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="AF8anBXpZ3DgjyDH78RA-6" target="AF8anBXpZ3DgjyDH78RA-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-6" value="elem.closest(css)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=28;" vertex="1" parent="1">
+          <mxGeometry x="265" y="800" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-7" value="returns all elements inside elem matching the given CSS selector" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="300" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-9" value="returns the first element for the given CSS selector" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="285" y="490" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-11" value="does not look for anything, it merely checks if elem matches the given CSS-selector. It returns true or false" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="235" y="690" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-13" value="looks for the nearest ancestor that matches the CSS-selector. The elem itself is also included in the search" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="250" y="880" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="AF8anBXpZ3DgjyDH78RA-15" target="AF8anBXpZ3DgjyDH78RA-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="AF8anBXpZ3DgjyDH78RA-15" target="AF8anBXpZ3DgjyDH78RA-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="AF8anBXpZ3DgjyDH78RA-15" target="AF8anBXpZ3DgjyDH78RA-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-15" value="getElementsBy*" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="AF8anBXpZ3DgjyDH78RA-16" target="AF8anBXpZ3DgjyDH78RA-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-16" value="elem.getElementsByTagName(tag)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="270" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="AF8anBXpZ3DgjyDH78RA-23" target="AF8anBXpZ3DgjyDH78RA-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-23" value="elem.getElementsByClassName(className)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1595" y="350" width="310" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-25" value="returns elements that have the given CSS class" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="420" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="AF8anBXpZ3DgjyDH78RA-27" target="AF8anBXpZ3DgjyDH78RA-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-27" value="document.getElementsByName(name)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1400" y="270" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-29" value="&amp;nbsp;returns elements with the given name attribute, document-wide. Very rarely used" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="285" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AF8anBXpZ3DgjyDH78RA-22" value="looks for elements with the given tag and returns the collection of them. The tag parameter can also be a star &quot;*&quot; for “any tags”" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2160" y="285" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
