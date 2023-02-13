@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T10:45:45.182Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Vld3IzyhdCSMBXTQr79p" version="20.8.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-02-13T10:48:16.260Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="nnj0XCpBOWtEOPR2o7rz" version="20.8.11" type="github" pages="3">
   <diagram name="Walking the DOM" id="5V7_pKLbEzuSfmTmsPUu">
     <mxGraphModel dx="2385" dy="2640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -132,7 +132,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2p6N85V6gRsdOOBAvf5C" name="Node properties: type, tag and contents">
-    <mxGraphModel dx="1804" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1680" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -305,19 +305,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zImYZJp69DjzyPnSN2yX-68" value="Node" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fontSize=14;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="1560" y="403" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zImYZJp69DjzyPnSN2yX-69" value="&lt;b&gt;nodeType&lt;/b&gt; -&amp;nbsp;provides one more, “old-fashioned” way to get the “type” of a DOM node (a numeric value)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="475" width="290" height="30" as="geometry" />
+          <mxGeometry x="1760" y="470" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zImYZJp69DjzyPnSN2yX-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="zImYZJp69DjzyPnSN2yX-68" target="zImYZJp69DjzyPnSN2yX-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zImYZJp69DjzyPnSN2yX-72" value="&lt;b&gt;nodeName&lt;/b&gt; (exists only for Element nodes)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1531.25" y="557.5" width="177.5" height="62.5" as="geometry" />
+          <mxGeometry x="1531.25" y="559" width="177.5" height="62.5" as="geometry" />
         </mxCell>
         <mxCell id="zImYZJp69DjzyPnSN2yX-74" value="&lt;b&gt;tagName&lt;/b&gt; (exists for any Node)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="475" width="120" height="30" as="geometry" />
+          <mxGeometry x="1360" y="523" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zImYZJp69DjzyPnSN2yX-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="zImYZJp69DjzyPnSN2yX-68" target="zImYZJp69DjzyPnSN2yX-74">
           <mxGeometry relative="1" as="geometry" />
@@ -332,7 +332,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zImYZJp69DjzyPnSN2yX-78" value="&lt;b&gt;outerHTML&lt;/b&gt; (contains the full HTML of the element. That’s like innerHTML plus the element itself)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1710" y="630" width="250" height="60" as="geometry" />
+          <mxGeometry x="1710" y="613" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zImYZJp69DjzyPnSN2yX-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="zImYZJp69DjzyPnSN2yX-68" target="zImYZJp69DjzyPnSN2yX-78">
           <mxGeometry relative="1" as="geometry">
@@ -345,15 +345,25 @@
           <mxGeometry x="1710" y="770" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zImYZJp69DjzyPnSN2yX-83" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;nodeValue/data&lt;/b&gt; (text node content)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="630" width="200" height="110" as="geometry" />
+          <mxGeometry x="1270" y="640" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="zImYZJp69DjzyPnSN2yX-86" value="&lt;b&gt;textContent&lt;/b&gt; - (pure text)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1460" y="680" width="120" height="50" as="geometry" />
+          <mxGeometry x="1460" y="723" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zImYZJp69DjzyPnSN2yX-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="zImYZJp69DjzyPnSN2yX-68" target="zImYZJp69DjzyPnSN2yX-86">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1490" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-88" value="&lt;b&gt;hidden&lt;/b&gt; (works the same as &lt;i&gt;style=&quot;display:none&quot;&lt;/i&gt;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="280" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zImYZJp69DjzyPnSN2yX-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="zImYZJp69DjzyPnSN2yX-68" target="zImYZJp69DjzyPnSN2yX-88">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1800" y="460" />
             </Array>
           </mxGeometry>
         </mxCell>
