@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-17T12:02:06.222Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="h_flkS4Ko2bba5-BnYga" version="20.8.20" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-02-17T14:42:38.060Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="lbG1hVIvg11UlM_n5qhk" version="20.8.20" type="github" pages="5">
   <diagram name="Walking the DOM" id="5V7_pKLbEzuSfmTmsPUu">
     <mxGraphModel dx="954" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -480,6 +480,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7A8EW10t-4eTjbBS-YAO" name="Modifying the document">
+    <mxGraphModel dx="954" dy="616" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
